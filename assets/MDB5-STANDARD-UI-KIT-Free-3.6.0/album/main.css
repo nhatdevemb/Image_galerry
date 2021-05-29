@@ -1,0 +1,53 @@
+
+   
+   body { background-color: lightblue; //anh nen
+   }
+.content-img {
+    width: 100%; //chieu ngang anh
+    height: 100%; //chieu cao anh
+    object-fit: cover; 
+    object-position: center;
+    margin-bottom: -90px;
+}
+
+.img-container {
+    margin-bottom: -104px;
+    z-index: 1;
+    width: 100%; 
+    height: 300px; 
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+.img-container:hover{
+    cursor: pointer;
+    z-index: 1;
+    margin-bottom: 24px;
+    transition: 1s;
+}
+
+.big-img{
+    display: block;
+    width: 100%;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(223, 225, 0);
+    color: rgb(31, 0, 0);
+    opacity: 0.5;
+}
+
+.img-container-big {
+    transition: 1s;
+    margin-right: 10px;
+    width: 100%;
+    height: 44em;
+    z-index: 2;
+}
+
+.card-text {
+    z-index: 0;
+
+}
