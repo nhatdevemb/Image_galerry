@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T06:59:15.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="15.8.8" etag="rxZCMVGkypWB8w1GmhX6" type="github"><diagram id="e1CMgoyyFFjNTjqPkiq_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-03T10:10:23.242Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="JD5uMRJiYf3KiYmOwYKG" version="15.8.8" type="github">
+  <diagram id="e1CMgoyyFFjNTjqPkiq_" name="Page-1">
+    <mxGraphModel dx="748" dy="433" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HbA-aAvix-gyZ1VaL9Fv-2" value="Set flag&amp;nbsp;&lt;br&gt;CMS_MSG_STOP_APP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="920" y="600" width="140" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="HbA-aAvix-gyZ1VaL9Fv-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.496;entryY=-0.009;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="HbA-aAvix-gyZ1VaL9Fv-13" target="HbA-aAvix-gyZ1VaL9Fv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="625" as="sourcePoint" />
+            <mxPoint x="1000" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HbA-aAvix-gyZ1VaL9Fv-13" value="Send message&lt;br&gt;to smd." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="929.5" y="507" width="119" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="HbA-aAvix-gyZ1VaL9Fv-19" value="Remote Control Service Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="930" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HbA-aAvix-gyZ1VaL9Fv-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="HbA-aAvix-gyZ1VaL9Fv-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="989" y="480" as="sourcePoint" />
+            <mxPoint x="1020" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HbA-aAvix-gyZ1VaL9Fv-24" value="Stop DPI App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="920" y="720" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HbA-aAvix-gyZ1VaL9Fv-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HbA-aAvix-gyZ1VaL9Fv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="687" as="sourcePoint" />
+            <mxPoint x="990" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HbA-aAvix-gyZ1VaL9Fv-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HbA-aAvix-gyZ1VaL9Fv-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="556" as="sourcePoint" />
+            <mxPoint x="1090" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HbA-aAvix-gyZ1VaL9Fv-49" value="Set flag&amp;nbsp;&lt;br&gt;CMS_MSG_START_APP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="498" width="140" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="HbA-aAvix-gyZ1VaL9Fv-50" value="OFF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="573" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HbA-aAvix-gyZ1VaL9Fv-51" value="ON" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1048.5" y="520" width="40" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="HbA-aAvix-gyZ1VaL9Fv-52" value="Start DPI App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="720" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HbA-aAvix-gyZ1VaL9Fv-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HbA-aAvix-gyZ1VaL9Fv-49" target="HbA-aAvix-gyZ1VaL9Fv-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="680" as="sourcePoint" />
+            <mxPoint x="1200" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
