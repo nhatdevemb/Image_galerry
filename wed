@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T01:27:14.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="15.8.8" etag="yV-bEaGiG7_vk5f2Rn2g" type="github"><diagram id="pEQIEzq-LTcNb9X6ydPl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-03T03:17:09.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="CiT8xwypu4q6RetzEKD5" version="15.8.8" type="github">
+  <diagram id="pEQIEzq-LTcNb9X6ydPl" name="Page-1">
+    <mxGraphModel dx="898" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8027" pageHeight="11069" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="33SyxJRHYVDVYP_aM3ke-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=20;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="780" y="320" width="590" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="33SyxJRHYVDVYP_aM3ke-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=20;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="800" y="340" width="560" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="33SyxJRHYVDVYP_aM3ke-1" value="Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontStyle=1;fontSize=20;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="810" y="380" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="33SyxJRHYVDVYP_aM3ke-2" value="Alarm" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=20;fontStyle=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="990" y="380" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="33SyxJRHYVDVYP_aM3ke-3" value="Remote control service client" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=20;fontStyle=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="840" y="640" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="33SyxJRHYVDVYP_aM3ke-4" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=20;entryX=0.154;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.109;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="33SyxJRHYVDVYP_aM3ke-3" target="33SyxJRHYVDVYP_aM3ke-9">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="920" y="640" as="sourcePoint" />
+            <mxPoint x="920" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33SyxJRHYVDVYP_aM3ke-5" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=20;entryX=0.478;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="33SyxJRHYVDVYP_aM3ke-9">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1068" y="640" as="sourcePoint" />
+            <mxPoint x="1065" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33SyxJRHYVDVYP_aM3ke-6" value="Function call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=20;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="850" y="560" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="33SyxJRHYVDVYP_aM3ke-7" value="Function call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=20;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="560" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="33SyxJRHYVDVYP_aM3ke-10" value="Configure" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=20;fontStyle=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="380" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="33SyxJRHYVDVYP_aM3ke-11" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=20;entryX=0.471;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1250" y="640" as="sourcePoint" />
+            <mxPoint x="1250.4699999999998" y="502.72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33SyxJRHYVDVYP_aM3ke-12" value="Function call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=20;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="560" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="33SyxJRHYVDVYP_aM3ke-13" value="WedUI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="340" width="230" height="31" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
