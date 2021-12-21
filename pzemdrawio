@@ -1,1 +1,109 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T05:05:06.732Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="16.0.0" etag="WpZsr_5MaSwwII5GL3T4" type="github"><diagram id="bFMHvu-F9yvzrG9CFSPj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-21T05:24:01.191Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="bjJYFs-1OsluHp1kEx33" version="16.0.0" type="github">
+  <diagram id="bFMHvu-F9yvzrG9CFSPj" name="Page-1">
+    <mxGraphModel dx="1021" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QWvtBfhI11NbanqNrp8s-1" value="Begin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-2" value="&amp;nbsp;Read Pzem 004T" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-3" value="Lấy Real-time&lt;br&gt;để set ngày, giờ chốt số" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-4" value="Giá trị điện áp = 230V" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QWvtBfhI11NbanqNrp8s-1" target="QWvtBfhI11NbanqNrp8s-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="140" as="sourcePoint" />
+            <mxPoint x="410" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QWvtBfhI11NbanqNrp8s-2" target="QWvtBfhI11NbanqNrp8s-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="250" as="sourcePoint" />
+            <mxPoint x="420" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QWvtBfhI11NbanqNrp8s-2" target="QWvtBfhI11NbanqNrp8s-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="370" as="sourcePoint" />
+            <mxPoint x="370" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-8" value="Giá trị điện tiêu thụ energy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1.008;exitY=0.67;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QWvtBfhI11NbanqNrp8s-3" target="QWvtBfhI11NbanqNrp8s-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="290" as="sourcePoint" />
+            <mxPoint x="560" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-11" value="Ghi số ngày mới,&lt;br&gt;hôm qua = hôm nay,&lt;br&gt;hôm nay =0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QWvtBfhI11NbanqNrp8s-8" target="QWvtBfhI11NbanqNrp8s-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="460" as="sourcePoint" />
+            <mxPoint x="590" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-13" value="Nếu giờ chốt số = hour()&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="400" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-14" value="Ghi số tháng mới, tháng trước = tháng này,&lt;br&gt;tháng này = 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QWvtBfhI11NbanqNrp8s-8" target="QWvtBfhI11NbanqNrp8s-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="390" as="sourcePoint" />
+            <mxPoint x="760" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-16" value="Nếu ngày chốt số = day()&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="380" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-17" value="Tiền điện = 3000* tháng này" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QWvtBfhI11NbanqNrp8s-8" target="QWvtBfhI11NbanqNrp8s-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="430" as="sourcePoint" />
+            <mxPoint x="430" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-19" value="TÍnh tiền điện trong tháng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-20" value="Bật nguồn điện từ pin năng lượng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QWvtBfhI11NbanqNrp8s-4" target="QWvtBfhI11NbanqNrp8s-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="460" as="sourcePoint" />
+            <mxPoint x="200" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWvtBfhI11NbanqNrp8s-22" value="Nếu giá trị điện áp = 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="420" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
