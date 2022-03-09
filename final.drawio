@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T02:55:59.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="D_yDmtAUm5BBXgtNfCQQ" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-09T04:09:07.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="VfFK3qvJzfFUntKuTFy0" version="16.6.6" type="github">
   <diagram id="o29LmthvbuohsQ8CwmIg" name="Page-1">
-    <mxGraphModel dx="1183" dy="668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="150000" pageHeight="150000" math="0" shadow="0">
+    <mxGraphModel dx="1420" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="150000" pageHeight="150000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aiUPBeyUkM5Jj70LzuEU-6" value="Send periodic list" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="aiUPBeyUkM5Jj70LzuEU-6" value="Send periodic device list" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="430" y="510" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aiUPBeyUkM5Jj70LzuEU-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=-0.01;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="aiUPBeyUkM5Jj70LzuEU-8" edge="1">
@@ -53,7 +53,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aiUPBeyUkM5Jj70LzuEU-23" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.014;entryY=0.637;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="aiUPBeyUkM5Jj70LzuEU-6">
+        <mxCell id="aiUPBeyUkM5Jj70LzuEU-23" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.014;entryY=0.637;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="aiUPBeyUkM5Jj70LzuEU-6" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="400" y="570.48" as="sourcePoint" />
             <mxPoint x="430" y="560" as="targetPoint" />
